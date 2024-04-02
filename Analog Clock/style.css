@@ -1,0 +1,144 @@
+body{
+			margin: 0px;
+			background: rgb(22,18,95);
+			background: radial-gradient(circle, rgba(22,18,95,1) 49%, rgba(26,200,207,1) 94%);
+		}
+h1,h2{
+  color:#fff;
+  font-family: "Kode Mono", monospace;
+}
+.container{
+      position: absolute;
+      top:50%;
+			left: 50%;
+			transform:translate(-50%,-50%);
+}
+		.clock{
+			margin: 200px 500px;
+			width: 250px;
+			height: 250px;
+			border:2px solid rgba(255,255,255,0.5) ;
+			position: relative;
+			transform: rotate(-90deg);
+			border-radius: 100%;
+			border:2px solid black;
+		}
+		.time{
+			color: #fff;
+			position: absolute;
+			transform: rotate(90deg);
+			/*now use margin to the time */
+		}
+		.line{
+			position: absolute;
+			width: 100px;
+			height: 5px;
+			background: red;
+			top: calc(50% - 2.5px);
+			left: calc(50% - 0px);
+			transform-origin: 0% 50%;
+			transform: rotate(90deg);
+		}
+		.mid{
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			background: #fff;
+			border-radius: 100%;
+			top:50%;
+			left: 50%;
+			transform:translate(-50%,-50%);
+			z-index: 10;
+		}
+
+		#seconds{
+			background: green;
+			transform:rotate(180deg);
+		}
+		#minutes{
+			background: blue;
+			transform:rotate(270deg);
+		}
+		#hours{
+			background: rgb(205, 23, 23);
+			transform:rotate(0deg);
+			/*time 12 start*/
+		}
+
+		
+
+		.time-12{
+			top:50%;
+			right:0%;
+			margin-top: -10px;
+		}
+		.time-11{
+			top:7%;
+			right:9%;
+			margin-top: 40px;
+			margin-left:4px;
+		}
+		
+		.time-10{
+			top:-9%;
+			right:26%;
+			margin-top: 40px;
+			margin-left:4px;
+		}
+		.time-8{
+			top:-10%;
+			right:69%;
+			margin-top: 40px;
+			margin-left:4px;
+		}
+
+		.time-7{
+			top:7%;
+			right:85%;
+			margin-top: 40px;
+			margin-left:4px;
+		}
+		.time-1{
+			top:55%;
+			right:11%;
+			margin-top: 40px;
+			margin-left:4px;
+		}
+
+		.time-2{
+			top:69%;
+			right:28%;
+			margin-top: 40px;
+			margin-left:4px;
+		}
+		
+		.time-3{
+			bottom:0%;
+			left:50%;
+			margin-left: -4px;
+		}
+
+		.time-4{
+			top:69%;
+			right:70%;
+			margin-top: 40px;
+			margin-left:4px;
+		}
+		.time-5{
+			top:52%;
+			right:87%;
+			margin-top: 40px;
+			margin-left:4px;
+		}
+		.time-6{
+			top:50%;
+			left:0%;
+			margin-top: -8px;
+			margin-left: 4px;
+		}
+
+		.time-9{
+			top:0%;
+			left:50%;
+			margin-left: -4px;
+		}
